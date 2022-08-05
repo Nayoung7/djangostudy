@@ -21,4 +21,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 
-# 127.0.0.1/polls/ >> 이렇게 url이 들어오면 파싱하여 polls를 찾아내고 polls > urls를 찾아감
+# (1) 127.0.0.1/polls/ >> 이렇게 url이 들어오면 파싱하여 polls를 찾아내고 polls > urls를 찾아감
